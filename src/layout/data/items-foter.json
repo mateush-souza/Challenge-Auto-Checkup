@@ -1,0 +1,95 @@
+{
+    "itemsInst": [
+        {
+            "item": "A Porto"
+        },
+        {
+            "item": "Marca Porto"
+        },
+        {
+            "item": "Instituto Porto"
+        },
+        {
+            "item": "Parceiros"
+        },
+        {
+            "item": "Teatro Porto"
+        },
+        {
+            "item": "Noticías e Imprensa"
+        },
+        {
+            "item": "Patrocínios"
+        }
+    ],
+    "itemsBlog": [
+        {
+            "item": "Casa"
+        },
+        {
+            "item": "Mobilidade"
+        },
+        {
+            "item": "Finanças"
+        },
+        {
+            "item": "Vida e Saúde"
+        },
+        {
+            "item": "Viagem"
+        },
+        {
+            "item": "Tecnologia"
+        },
+        {
+            "item": "Negócios"
+        },
+        {
+            "item": "Sobre a Porto"
+        }
+    ],
+    "itemsForYou": [
+        {
+            "item": "Portal do Cliente"
+        },
+        {
+            "item": "Encontre um Corretor"
+        }
+    ],
+    "iconsSocial": [
+        {
+            "src": "src/assets/img/footer/facebook.svg",
+            "alt": "Ìcone do facebook"
+        },
+        {
+            "src": "src/assets/img/footer/instagram.svg",
+            "alt": "Ìcone do instagram"
+        },
+        {
+            "src": "src/assets/img/footer/linkedin.svg",
+            "alt": "Ìcone do LinkedIn"
+        },
+        {
+            "src": "src/assets/img/footer/youtube.svg",
+            "alt": "Ìcone do Youtube"
+        },
+        {
+            "src": "src/assets/img/footer/twitter.svg",
+            "alt": "Ìcone do Twitter"
+        },
+        {
+            "src": "src/assets/img/footer/tiktok.svg",
+            "alt": "Ìcone do tiktok"
+        }
+    ],
+    "dowload": [
+        {
+            "src": "src/assets/img/footer/btn-apple.png",
+            "alt": "Baixar app da porto na apple store"
+        },
+        {
+            "src": "src/assets/img/footer/btn-google.png",
+            "alt": "Baixar apple da porto na google play"
+        }
+    ]
+}
