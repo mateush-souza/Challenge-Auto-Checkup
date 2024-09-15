@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const MenuComp = styled.header`
     opacity: 1;
     box-shadow: 0px 1px 10px 0px #0000001A;
-    position: fixed;
     width: 100%;
     height: auto;
     padding: 25px 38px;
@@ -59,7 +58,6 @@ export const FooterComp = styled.footer`
     font-size: 16px;
     background-color: #0046C0;
     color: white;
-    position: absolute;
     bottom: 0;
     width: 100%;
     min-height: 400px;
@@ -116,5 +114,75 @@ export const FooterComp = styled.footer`
 
 //Estilização dos components da Home
 export const BannerComp = styled.section`
+    width: 100%;
+    color: #019FF9;
+    height: auto;
     padding: 20px;
+    .container {
+        background-color: #F3F3F3;
+        border-radius: 25px;
+
+        .auto-grid {
+            .text-container {
+                padding: 0 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    font-weight: 500;
+                    font-size: 50px;
+                    max-width: 470px;
+                }
+                span {
+                    font-weight: 600;
+                }
+                p {
+                    margin-top: 20px;
+                    font-size: 18px;
+                    max-width: 320px;
+                }
+
+                .btn-banner {
+                    cursor: pointer;
+                    margin-top: 20px;
+                    max-width: 218px;
+                    height: 60px;
+                    border: none;
+                    border-radius: 25px;
+                    background-color: #019FF9;
+                    color: white;
+                }
+
+                .btn-banner:hover {
+                    transition: ease-in-out 1s;
+                    box-shadow: 5px 5px #019FF9;
+                    background: none;
+                    color: #019FF9;
+                    border: 1px solid #019FF9;
+                }
+            }
+            img {
+                width: 100%;
+                max-height: 584px;
+            }
+        }
+    }
+
+    @media (max-width: 1100px) {
+        .container {
+            .auto-grid {
+                .text-container {
+                    order: 2;
+                    
+                    h1 {
+                        font-size: 22px;
+                    }
+                    .btn-banner {
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
 `
