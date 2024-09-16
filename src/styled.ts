@@ -186,3 +186,30 @@ export const BannerComp = styled.section`
         }
     }
 `
+export const ProblemsComp = styled.section`
+    padding: 100px 60px;
+
+    h2 {
+        font-size: 20px;
+        color: #019FF9;
+        margin-bottom: 30px;
+    }
+    .text-container {
+        align-self: center;
+        
+        .container-items {
+            margin-bottom: 30px;
+    
+            h3 {
+                font-size: 18px;
+                color: #019FF9;
+            }
+    
+            p {
+                font-size: 12px;
+                color: #828282;
+            }
+    }
+    }
+
+`
