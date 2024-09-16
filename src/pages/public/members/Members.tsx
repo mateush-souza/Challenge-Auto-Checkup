@@ -22,7 +22,7 @@ const CardsMemb = [
         img: Lucas,
         name: "Lucas de Assis Fialho",
         rm: 557884,
-        link: ""
+        link: "https://github.com/lucasdafialho"
     }
 ]
 
