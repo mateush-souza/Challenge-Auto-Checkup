@@ -1,58 +1,88 @@
-#!/bin/bash
+\# 📱 Projeto Vite + React + TypeScript
 
-# 📱 Projeto Vite + React + TypeScript
+Este é um projeto de exemplo utilizando \*\*Vite\*\* como bundler, \*\*React\*\* para construção de interfaces e \*\*TypeScript\*\* para tipagem estática.
 
-# Este é um projeto de exemplo utilizando Vite como bundler, React para construção de interfaces e TypeScript para tipagem estática.
+\---
 
-# --- 🛠️ Tecnologias Utilizadas ---
-echo "🛠️ Tecnologias Utilizadas"
-echo " - Vite: Para desenvolvimento rápido com HMR (Hot Module Replacement)."
-echo " - React: Biblioteca para criação de interfaces de usuário."
-echo " - TypeScript: Tipagem estática para JavaScript."
+\## 🛠️ Tecnologias Utilizadas
 
-# --- 🚀 Como Rodar o Projeto ---
-echo ""
-echo "🚀 Como Rodar o Projeto"
+- \*\*Vite\*\*: Para desenvolvimento rápido com HMR (Hot Module Replacement).
+- \*\*React\*\*: Biblioteca para criação de interfaces de usuário.
+- \*\*TypeScript\*\*: Tipagem estática para JavaScript.
 
-# Requisitos
-echo "⚡ Requisitos: Você precisará ter instalado Node.js (versão 14+) e NPM ou Yarn."
+\---
 
-# Clone o repositório
-echo ""
-echo "1️⃣ Clonando o repositório..."
+\## 🚀 Como Rodar o Projeto
+
+\### ⚡ Pré-requisitos
+
+Antes de começar, você precisará ter instalado em sua máquina:
+
+- \*\*[Node.js](https://nodejs.org/)\*\* (versão 14+)
+- \*\*NPM\*\* ou \*\*Yarn\*\* (Gerenciador de pacotes)
+
+\### 📝 Passo a Passo
+
+1. \*\*Clone o repositório:\*\*
+
+\```bash
+
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-# Entre no diretório do projeto
-echo "2️⃣ Entrando no diretório do projeto..."
+Entre no diretório do projeto:
+
+bash
+
+Copiar código
+
 cd seu-repositorio
 
-# Instale as dependências
-echo "3️⃣ Instalando dependências..."
-read -p "Você usa npm ou yarn? " pkgmgr
+Instale as dependências:
 
-if [ "$pkgmgr" == "npm" ]; then
-  npm install
-elif [ "$pkgmgr" == "yarn" ]; then
-  yarn
-else
-  echo "Gerenciador de pacotes não reconhecido. Execute manualmente npm install ou yarn."
-  exit 1
-fi
+Com npm:
 
-# Execute o servidor de desenvolvimento
-echo "4️⃣ Rodando o servidor de desenvolvimento..."
-if [ "$pkgmgr" == "npm" ]; then
-  npm run dev
-else
-  yarn dev
-fi
+bash
 
-# Acesse o projeto no navegador
-echo "5️⃣ Acesse o projeto em http://localhost:5173"
+Copiar código
 
-# --- 📦 Scripts Disponíveis ---
-echo ""
-echo "📦 Scripts Disponíveis"
-echo " - npm run dev ou yarn dev: Executa o projeto em modo de desenvolvimento."
-echo " - npm run build ou yarn build: Compila o projeto para produção."
-echo " - npm run preview ou yarn preview: Pré-visualiza o build de produção."
+npm install
+
+Com yarn:
+
+bash
+
+Copiar código
+
+yarn
+
+Execute o servidor de desenvolvimento:
+
+Com npm:
+
+bash
+
+Copiar código
+
+npm run dev
+
+Com yarn:
+
+bash
+
+Copiar código
+
+yarn dev
+
+Abra o projeto no navegador:
+
+Vá para http://localhost:5173
+
+📦 Scripts Disponíveis
+
+Na raiz do projeto, você pode executar os seguintes scripts:
+
+npm run dev ou yarn dev: Executa o projeto em modo de desenvolvimento.
+
+npm run build ou yarn build: Compila o projeto para produção.
+
+npm run preview ou yarn preview: Pré-visualiza o build de produção.
