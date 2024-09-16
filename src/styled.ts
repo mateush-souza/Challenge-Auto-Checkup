@@ -236,3 +236,43 @@ export const ProblemsComp = styled.section`
         }
     }
 `
+export const FeaturesComp = styled.section`
+    .section-title {
+        padding: 100px 0 0 60px;
+
+        h2 {
+            color:#019FF9;
+        }
+        p {
+            max-width: 700px;
+        }
+    }
+
+    .container {
+        background-color: #EEF9FF;
+        border-radius: 20px;
+        margin: 30px 20px;
+
+        .text-container {
+            padding: 15px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 510px;
+
+            h3 {
+                color:#0155B7;
+                font-size: 30px;
+            }
+            p {
+                margin-top: 25px;
+                color: #515151;
+                font-size: 17px;
+            }
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+`
