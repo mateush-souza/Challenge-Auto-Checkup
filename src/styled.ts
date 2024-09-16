@@ -187,29 +187,52 @@ export const BannerComp = styled.section`
     }
 `
 export const ProblemsComp = styled.section`
-    padding: 100px 60px;
-
-    h2 {
-        font-size: 20px;
-        color: #019FF9;
-        margin-bottom: 30px;
-    }
-    .text-container {
-        align-self: center;
-        
-        .container-items {
+    .container-section-image{
+        padding: 100px 60px;
+    
+        h2 {
+            font-size: 20px;
+            color: #019FF9;
             margin-bottom: 30px;
-    
-            h3 {
-                font-size: 18px;
-                color: #019FF9;
+        }
+        .text-container {
+            align-self: center;
+            
+            .container-items {
+                margin-bottom: 30px;
+        
+                h3 {
+                    font-size: 18px;
+                    color: #019FF9;
+                }
+        
+                p {
+                    font-size: 12px;
+                    color: #828282;
+                }
             }
-    
-            p {
-                font-size: 12px;
-                color: #828282;
-            }
-    }
+        }
     }
 
+    .warnings-container {
+        display: flex;
+        align-items: center;
+        background-color:#0046C0;
+        color: white;
+        margin-bottom: 25px;
+        min-height: 385px;
+        
+        .items-container {
+            padding: 25px;
+            text-align: center;
+
+            h3{
+                font-size: 20px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
+    }
 `

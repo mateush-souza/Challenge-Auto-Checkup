@@ -1,0 +1,33 @@
+{
+    "problemsItems": [
+        {
+            "title": "Relate seu problema",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv Lorem ipstumvvLorem ipstumLorem ipstum vLorem ipstum"
+        },
+        {
+            "title": "Realize o diagnóstico",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv Lorem ipstumvvLorem ipstumLorem ipstum vLorem ipstum"
+        },
+        {
+            "title": "Orçe e realize o reparo",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv Lorem ipstumvvLorem ipstumLorem ipstum vLorem ipstum"
+        }
+    ],
+    "cards": [
+        {
+            "image": "src/assets/img/home/timer.png",
+            "title": "Ganho de tempo e dinheiro",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv"
+        },
+        {
+            "image": "src/assets/img/home/warning.png",
+            "title": "Prevenção de maiores problemas",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv"
+        },
+        {
+            "image": "src/assets/img/home/person.png",
+            "title": "Praticidade e conforto",
+            "description": "Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstum Lorem ipstumvLorem ipstumvv"
+        }
+    ]
+}
