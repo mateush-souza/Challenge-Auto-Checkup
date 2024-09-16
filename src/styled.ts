@@ -415,3 +415,52 @@ export const CardsMembersComp = styled.section`
         }
     }
 `
+
+export const LoginComp = styled.section`
+    padding: 60px;
+
+    .auto-grid {
+        justify-items: center;
+       
+    }
+
+    .form-container {
+        padding: 15px;
+        width: 354px;
+        height: 457px;
+        border-radius: 15px;
+        border: 1px solid #D6D6D6;
+
+        .description {
+            font-size: 14px;
+        }
+
+        .form-items {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                border: none;
+                background: #EEEEEE;
+                height: 50px;
+                padding: 10px;
+                border-radius: 10px
+            }
+
+            button {
+                cursor: pointer;
+                margin: 20px 0 15px;
+                background-color: #0046C0;
+                border-radius: 10px;
+                color: white;
+                height: 40px;
+                border: none;
+            }
+
+            .details {
+                font-size: 12px;
+            }
+        }
+    }
+`
