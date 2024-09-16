@@ -321,3 +321,51 @@ export const CardsFeedComp = styled.section`
         }
     }
 `
+export const QuestionsComp = styled.section`
+    margin: 80px 84px 100px;
+    border-top: 1px solid #D9D9D9;
+    text-align: center;
+
+    .auto-grid {
+        justify-items: center;
+    }
+
+    .title {
+        margin-top: 70px;
+        font-size: 27px;
+        color: #019FF9;
+
+        span {
+            color: black;
+        }
+    }
+
+    .description {
+        color:#828282;
+        margin: 15px 0 ;
+    }
+
+    .container-accordion {
+        justify-self: center;
+        align-self: center;
+    }
+
+`
+export const AccordionComp = styled.section`
+    background-color: #019FF9;
+    max-width: 415px;
+    min-height: 55px;
+    color: white;
+    border-radius: 10px;
+
+    .container {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+`

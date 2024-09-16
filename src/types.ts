@@ -4,3 +4,7 @@ export type CardsFeedProps = {
     name: string;
     author: string;
 }
+
+export type AccordionProps = {
+    title: string;
+}
