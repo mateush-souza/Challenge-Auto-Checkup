@@ -53,6 +53,62 @@ export const MenuComp = styled.header`
         background: #019FF9;
         color: white;
     }
+
+ .mobile-menu-toggle {
+    position: absolute;
+    right: 35px;
+    z-index: 99;
+    display: none;
+    cursor: pointer;
+ }
+
+ .icon {
+    width: 30px;
+    height: 30px;
+}
+ .mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-menu li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.mobile-menu a:hover {
+  color: #666;
+}
+
+@media (max-width: 1100px) {
+    .auto-grid {
+        align-items: center;
+    }
+  .mobile-menu-toggle {
+    display: block;
+  }
+  .no-mobile {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 100%;
+    background: white;
+    padding: 50px;
+  }
+
+}
 `
 export const FooterComp = styled.footer`
     font-size: 16px;
@@ -405,6 +461,10 @@ export const CardsMembersComp = styled.section`
     align-items: center;
     margin-top: 30px;
 
+    img {
+        width: auto;
+    }
+
     a {
         text-decoration: none;
         color: black;
@@ -415,7 +475,6 @@ export const CardsMembersComp = styled.section`
         }
     }
 `
-
 export const LoginComp = styled.section`
     padding: 60px;
 
@@ -426,7 +485,7 @@ export const LoginComp = styled.section`
 
     .form-container {
         padding: 15px;
-        width: 354px;
+        max-width: 354px;
         height: 457px;
         border-radius: 15px;
         border: 1px solid #D6D6D6;
