@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+#!/bin/bash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📱 Projeto Vite + React + TypeScript
 
-Currently, two official plugins are available:
+# Este é um projeto de exemplo utilizando Vite como bundler, React para construção de interfaces e TypeScript para tipagem estática.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# --- 🛠️ Tecnologias Utilizadas ---
+echo "🛠️ Tecnologias Utilizadas"
+echo " - Vite: Para desenvolvimento rápido com HMR (Hot Module Replacement)."
+echo " - React: Biblioteca para criação de interfaces de usuário."
+echo " - TypeScript: Tipagem estática para JavaScript."
 
-## Expanding the ESLint configuration
+# --- 🚀 Como Rodar o Projeto ---
+echo ""
+echo "🚀 Como Rodar o Projeto"
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Requisitos
+echo "⚡ Requisitos: Você precisará ter instalado Node.js (versão 14+) e NPM ou Yarn."
 
-- Configure the top-level `parserOptions` property like this:
+# Clone o repositório
+echo ""
+echo "1️⃣ Clonando o repositório..."
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# Entre no diretório do projeto
+echo "2️⃣ Entrando no diretório do projeto..."
+cd seu-repositorio
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+# Instale as dependências
+echo "3️⃣ Instalando dependências..."
+read -p "Você usa npm ou yarn? " pkgmgr
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+if [ "$pkgmgr" == "npm" ]; then
+  npm install
+elif [ "$pkgmgr" == "yarn" ]; then
+  yarn
+else
+  echo "Gerenciador de pacotes não reconhecido. Execute manualmente npm install ou yarn."
+  exit 1
+fi
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Execute o servidor de desenvolvimento
+echo "4️⃣ Rodando o servidor de desenvolvimento..."
+if [ "$pkgmgr" == "npm" ]; then
+  npm run dev
+else
+  yarn dev
+fi
+
+# Acesse o projeto no navegador
+echo "5️⃣ Acesse o projeto em http://localhost:5173"
+
+# --- 📦 Scripts Disponíveis ---
+echo ""
+echo "📦 Scripts Disponíveis"
+echo " - npm run dev ou yarn dev: Executa o projeto em modo de desenvolvimento."
+echo " - npm run build ou yarn build: Compila o projeto para produção."
+echo " - npm run preview ou yarn preview: Pré-visualiza o build de produção."

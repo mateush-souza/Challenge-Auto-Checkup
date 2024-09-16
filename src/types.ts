@@ -8,3 +8,10 @@ export type CardsFeedProps = {
 export type AccordionProps = {
     title: string;
 }
+
+export type MembersCardsProps = {
+    img: string;
+    name:string;
+    rm:number;
+    link: string;
+}

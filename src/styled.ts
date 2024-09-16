@@ -369,3 +369,49 @@ export const AccordionComp = styled.section`
         }
     }
 `
+export const MembersComp = styled.section`
+    margin: 130px 80px;
+    text-align: center;
+
+    .border {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #828282;
+    }
+    
+    .auto-grid {
+        justify-items: center;
+        .title {
+            color: #019FF9;
+        }
+    
+        .description {
+            max-width: 600px;
+            font-size: 17px;
+            color: #828282;
+        }
+    }
+
+    .image-container {
+        padding: 30px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+`
+export const CardsMembersComp = styled.section`
+    align-items: center;
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        .rm {
+            color:#828282;
+            font-size: 16px;
+        }
+    }
+`
