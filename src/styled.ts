@@ -276,3 +276,48 @@ export const FeaturesComp = styled.section`
         }
     }
 `
+export const FeedbackComp = styled.section`
+    margin: 100px 67px;
+
+    .section-title {
+        margin-bottom: 60px;
+
+        h2 {
+            color: #019FF9;
+        }
+        p {
+            max-width: 700px;
+        }
+    }
+`
+export const CardsFeedComp = styled.section`
+    .container {
+        max-width: 400px;
+        height: auto;
+        box-shadow: 1px 2px 10px 0px #00000026;
+        border-radius: 20px;
+        padding: 20px;
+
+        .img-container {
+            display: flex;
+            justify-content: end;
+        }
+
+        .description {
+            font-size: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #D9D9D9;
+        }
+
+        .name {
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .author {
+            font-size: 13px;
+            color: #B1B1B1;
+        }
+    }
+`
