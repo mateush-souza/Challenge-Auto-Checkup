@@ -77,12 +77,3 @@ Abra o projeto no navegador:
 
 Vá para http://localhost:5173
 
-📦 Scripts Disponíveis
-
-Na raiz do projeto, você pode executar os seguintes scripts:
-
-npm run dev ou yarn dev: Executa o projeto em modo de desenvolvimento.
-
-npm run build ou yarn build: Compila o projeto para produção.
-
-npm run preview ou yarn preview: Pré-visualiza o build de produção.
