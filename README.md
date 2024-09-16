@@ -27,7 +27,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 \```bash
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/mateush-souza/Challenge-Auto-Checkup.git
 
 Entre no diretório do projeto:
 
@@ -35,7 +35,7 @@ bash
 
 Copiar código
 
-cd seu-repositorio
+cd Challenge-Auto-Checkup
 
 Instale as dependências:
 
